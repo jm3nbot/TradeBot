@@ -1,0 +1,24 @@
+# Local environment — never commit
+.env
+*.env
+.env.*
+
+# Email fallback (local only)
+EMAIL-FALLBACK.md
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Temp files
+*.tmp
+*.log
