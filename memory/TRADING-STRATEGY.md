@@ -49,7 +49,15 @@ Beat the S&P 500 over the challenge window while protecting capital.
 - Sector rolls over sharply.
 - 2 consecutive failed trades in same sector.
 
+## US Tax Rules (account holder is US-tax-resident, based in UAE)
+
+- **Wash sale rule**: Do not repurchase the same ticker (or a substantially identical security) within 30 days before or after selling it at a loss. Wash sale losses are disallowed and add to the cost basis of the replacement position. Flag any potential wash sale in TRADE-LOG.md before placing the buy order.
+- **Short-term gains**: Positions held < 1 year taxed as ordinary income. Prefer setups with multi-week hold potential when equivalent risk/reward exists.
+- **Long-term gains**: Positions held ≥ 1 year taxed at 0/15/20% preferential rate. Do not hold losers to chase long-term status — the –7% hard cut rule overrides all tax considerations.
+- **No UAE capital gains tax** applies; US federal (and state, if applicable) tax rules govern.
+
 ## Strategy Version History
 | Date | Change | Reason |
 |------|--------|--------|
 | 2026-04-26 | Initial strategy document | Project start |
+| 2026-04-26 | Added US tax rules section | Account holder is US-tax-resident based in UAE |
